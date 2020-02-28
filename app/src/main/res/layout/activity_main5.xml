@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <Button
+        android:id="@+id/MP"
+        android:layout_width="151dp"
+        android:layout_height="79dp"
+        android:text="Micro Processor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/SS"
+        android:layout_width="151dp"
+        android:layout_height="79dp"
+        android:text="System Software"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MP"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/os"
+        android:layout_width="151dp"
+        android:layout_height="79dp"
+        android:text="Operating System"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SS"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Button
+        android:id="@+id/dc"
+        android:layout_width="151dp"
+        android:layout_height="79dp"
+        android:text="Data Communication"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/os"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/da"
+        android:layout_width="151dp"
+        android:layout_height="79dp"
+        android:text="Data Analytics"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dc"
+        app:layout_constraintVertical_bias="0.225" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
